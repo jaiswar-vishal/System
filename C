@@ -4,3 +4,804 @@ Written by Vishal Jaiswar
 */
 
 Content Table
+
+PART 1 — Foundation
+Chapter 1
+History of C
+Why C still dominates
+Where C is used
+How C program executes
+Compiler
+Linker
+Loader
+Executable
+Memory overview
+
+Exercises
+
+Common mistakes
+
+Mini Project
+
+Chapter 2
+
+Variables
+
+Variable
+Identifier
+Declaration
+Definition
+Initialization
+Assignment
+Scope
+Lifetime
+Storage classes
+
+Exercises
+
+Common mistakes
+
+Chapter 3
+
+Data Types
+
+char
+short
+int
+long
+long long
+float
+double
+long double
+bool
+enum
+
+Signed vs unsigned
+
+Type conversion
+
+Integer promotion
+
+Overflow
+
+Underflow
+
+Alignment
+
+Padding
+
+Exercises
+
+Mini Project
+
+Chapter 4
+
+Operators
+
+Arithmetic
+
+Logical
+
+Bitwise
+
+Assignment
+
+Increment
+
+Decrement
+
+Conditional
+
+Comma
+
+sizeof
+
+Pointer operators
+
+Operator precedence
+
+Associativity
+
+Undefined expressions
+
+Exercises
+
+Chapter 5
+
+Input Output
+
+printf
+
+scanf
+
+fprintf
+
+sprintf
+
+snprintf
+
+fgets
+
+puts
+
+getchar
+
+putchar
+
+Formatting
+
+Common scanf bugs
+
+Exercises
+
+Mini Project
+
+PART 2 Control Flow
+
+Chapter 6
+
+if
+
+else
+
+switch
+
+goto
+
+break
+
+continue
+
+return
+
+Nested logic
+
+Decision trees
+
+Real examples
+
+Chapter 7
+
+Loops
+
+while
+
+do while
+
+for
+
+Nested loops
+
+Infinite loops
+
+Loop optimization
+
+Common interview questions
+
+PART 3 Functions
+
+Chapter 8
+
+Function basics
+
+Prototype
+
+Declaration
+
+Definition
+
+Stack
+
+Call by value
+
+Recursion
+
+Tail recursion
+
+Inline
+
+Static functions
+
+Header files
+
+Exercises
+
+Mini project
+
+PART 4 Arrays
+
+Chapter 9
+
+1D arrays
+
+2D arrays
+
+3D arrays
+
+Memory layout
+
+Passing arrays
+
+String arrays
+
+Exercises
+
+Chapter 10
+
+Strings
+
+ASCII
+
+UTF
+
+Null terminator
+
+strlen
+
+strcpy
+
+strcmp
+
+strcat
+
+strtok
+
+Real parsing
+
+Buffer overflow
+
+Exercises
+
+PART 5 Pointers (The Most Important Part)
+
+This will probably take 20–25 chapters.
+
+Chapter 11
+
+Pointer basics
+
+Memory address
+
+Dereference
+
+Pointer arithmetic
+
+Chapter 12
+
+Pointers vs Arrays
+
+Chapter 13
+
+Pointer to pointer
+
+Chapter 14
+
+Array of pointers
+
+Chapter 15
+
+Function pointers
+
+Callbacks
+
+Chapter 16
+
+Void pointer
+
+Chapter 17
+
+Const pointer
+
+Pointer to const
+
+Const pointer to const
+
+Chapter 18
+
+Pointer arithmetic
+
+Memory traversal
+
+Chapter 19
+
+Dynamic memory
+
+malloc
+
+calloc
+
+realloc
+
+free
+
+Heap
+
+Fragmentation
+
+Memory leaks
+
+Chapter 20
+
+Dangling pointer
+
+Wild pointer
+
+NULL pointer
+
+Double free
+
+Use after free
+
+Memory corruption
+
+Chapter 21
+
+Memory allocator implementation
+
+Implement malloc
+
+Metadata
+
+Free list
+
+Memory pool
+
+Buddy allocator
+
+PART 6 Structures
+
+Chapter 22
+
+struct
+
+typedef
+
+Nested structures
+
+Alignment
+
+Padding
+
+Packing
+
+offsetof
+
+Container_of
+
+Flexible array member
+
+Bit fields
+
+PART 7 Unions
+
+Memory sharing
+
+Tagged union
+
+Real protocol parsing
+
+PART 8 Enum
+
+Real embedded examples
+
+Finite state machine
+
+PART 9 Bit Manipulation
+
+AND
+
+OR
+
+XOR
+
+Shift
+
+Masks
+
+Flags
+
+Register programming
+
+Embedded examples
+
+Networking examples
+
+Interview tricks
+
+PART 10 Preprocessor
+
+#include
+
+#define
+
+Macros
+
+Function macros
+
+Conditional compilation
+
+Include guards
+
+#pragma once
+
+Token pasting
+
+Stringification
+
+X macros
+
+PART 11 Storage Classes
+
+auto
+
+register
+
+extern
+
+static
+
+volatile
+
+restrict
+
+const
+
+PART 12 File Handling
+
+FILE
+
+Binary files
+
+Text files
+
+Serialization
+
+Logging
+
+CSV parser
+
+Mini Project
+
+PART 13 Memory Layout
+
+Text
+
+Data
+
+BSS
+
+Heap
+
+Stack
+
+Static
+
+Global
+
+Memory map
+
+ELF
+
+Executable
+
+PART 14 Build System
+
+gcc
+
+clang
+
+Warnings
+
+Optimization
+
+Linking
+
+Libraries
+
+Static library
+
+Shared library
+
+Makefile
+
+CMake basics
+
+PART 15 Debugging
+
+gdb
+
+Valgrind
+
+AddressSanitizer
+
+UBSan
+
+Segmentation fault
+
+Stack trace
+
+Core dump
+
+Memory debugging
+
+PART 16 Linux System Programming
+
+System calls
+
+fork
+
+exec
+
+pipe
+
+dup
+
+wait
+
+signal
+
+Process
+
+Thread
+
+Mutex
+
+Semaphore
+
+Shared memory
+
+Sockets
+
+poll
+
+select
+
+epoll
+
+PART 17 Data Structures in C
+
+Linked list
+
+Stack
+
+Queue
+
+Hash table
+
+BST
+
+AVL
+
+Heap
+
+Trie
+
+Graph
+
+Dynamic array
+
+Circular buffer
+
+PART 18 Algorithms in C
+
+Sorting
+
+Searching
+
+Greedy
+
+DP
+
+Recursion
+
+Backtracking
+
+Bit algorithms
+
+PART 19 Embedded C
+
+Volatile
+
+Memory mapped IO
+
+Interrupt
+
+Register programming
+
+UART
+
+SPI
+
+I2C
+
+CAN
+
+DMA
+
+Watchdog
+
+RTOS basics
+
+PART 20 Networking in C
+
+Socket programming
+
+TCP
+
+UDP
+
+HTTP
+
+Client
+
+Server
+
+Packet parser
+
+Protocol implementation
+
+PART 21 Multithreading
+
+POSIX Threads
+
+Mutex
+
+Condition variable
+
+Deadlock
+
+Race condition
+
+Thread pool
+
+PART 22 Design Patterns in C
+
+State machine
+
+Observer
+
+Singleton
+
+Command
+
+Object-oriented programming in C
+
+PART 23 Security
+
+Buffer overflow
+
+Stack smashing
+
+Integer overflow
+
+Format string bug
+
+Memory corruption
+
+Safe coding
+
+PART 24 Performance
+
+Cache
+
+Cache locality
+
+Branch prediction
+
+Compiler optimization
+
+SIMD basics
+
+Profiling
+
+PART 25 Real Projects
+Student Database
+Mini Shell
+File Explorer
+Memory Allocator
+HTTP Server
+Chat Server
+JSON Parser
+CSV Parser
+Logger Library
+Thread Pool
+Snake Game
+Linux Command Clone
+Packet Sniffer
+Embedded Driver
+Bootloader
+PART 26 Interview Mastery
+
+Every famous C interview question
+
+Pointers
+
+Memory
+
+Undefined behavior
+
+Compiler
+
+Linker
+
+OS
+
+Embedded
+
+Linux
+
+Networking
+
+PART 27 Advanced C
+
+Undefined behavior
+
+Sequence points
+
+Strict aliasing
+
+Volatile myths
+
+Alignment tricks
+
+Lock-free programming
+
+Compiler internals
+
+ABI
+
+ELF
+
+Symbol tables
+
+Dynamic linker
+
+PART 28 Production-Level Coding Standards
+
+Naming conventions
+
+Directory structure
+
+Documentation
+
+Code reviews
+
+Error handling
+
+Logging
+
+Assertions
+
+Testing
+
+Coding standards (MISRA C overview)
+
+How we'll learn each topic
+
+Every chapter will follow the same proven learning cycle:
+
+Intuition first – Understand the concept with a real-world analogy before seeing code.
+Memory visualization – Draw stack, heap, variables, and pointers so you can "see" what the program is doing.
+Minimal code – Start with the smallest working example.
+Real-world example – Solve a practical problem using the concept.
+Common mistakes – Learn the bugs professionals actually encounter and how to avoid them.
+Debugging session – Step through the code using gdb (which you've already started learning) to observe runtime behavior.
+Exercises – Progress from easy to interview-level questions.
+Mini project – Apply the chapter's concepts in a small but complete program.
+Active recall – Answer conceptual questions from memory without looking at notes.
+Spaced revision – Revisit the concept after 1 day, 1 week, and 1 month with progressively harder problems.
+Coding rules we'll follow from Day 1
+
+Always compile with:
+
+gcc -Wall -Wextra -Werror -g file.c -o app
+Fix every warning instead of ignoring it.
+Draw memory diagrams for pointer-related code.
+Use the debugger to understand execution, not just to find bugs.
+Write small, testable functions with clear responsibilities.
+Learn why something works before memorizing syntax.
+
+This approach will build both deep understanding and long-term retention.
+
+Our first lesson will be Chapter 1: How a C program actually becomes a running process, where you'll learn the complete journey from source code (main.c) to machine code, executable, loading into memory, and execution by the CPU. That foundation will make every later topic much easier to understand.
+
