@@ -1,0 +1,6 @@
+/*
+This is a quick revision tutorial for the C language.
+Written by Vishal Jaiswar
+*/
+
+Content Table
